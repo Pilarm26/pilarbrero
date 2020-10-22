@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Hace tu pedido</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <meta name="Encargos" content="formulario, pedidos">
+  <!--fuentes-->
+	<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <!--bootstrap-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/> 
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <!--CSS-->
+  <link rel="stylesheet" type="text/css" href="../css/estilos.css">
+</head>
+<body>
+    <header>       
+        <div class="menuUno">
+          <nav class="navbar navbar-expand-sm navbar-expand-lg navbar-dark bg-black">
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-label="navigation">
+               
+              <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav animate__animated aanimate__fadeInDown">
+                <li class="nav-item">
+                  <a class="nav-link active" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="quiensoy.html">Quien soy</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link active" href="servicios.html">Servicios</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active">Catalogos</a> 
+                      <ul class="menuDesplegable nav-item">
+                        <li> <a href="../catalogos/exel.pdf">EXEL</a></li>
+                        <li> <a href="../catalogos/idraetmakeup.pdf">Idraet PRO-MAKEUP</a></li>
+                        <li><a href="../catalogos/idraetskincare.pdf">Idraet Dermo</a></li>
+                        <li><a href="../catalogos/mila.pdf">MILA</a></li>
+                        <li><a href="../catalogos/naturasiberica.pdf">Natura Siberica</a></li>
+                        <li><a href="../catalogos/organicshop.pdf">Organic Shop</a></li>
+                        <li><a href="../catalogos/lidherma.pdf">Lidherma</a></li>
+                      </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="preguntasfrecuentes.html">Preguntas Frecuentes</a>
+                </li>
+              </ul>  
+            </div>
+          </nav>         
+        </div>  
+      </section>  
+    </header>
+
+
+<!--FORMULARIO-->
+    <div class="enviamePedido">    
+    <h2>Enviame tu pedido y me contacto con vos</h2>
+    </div>
+    <div class="formulario">
+    <form action="index.html" name="Pedido" method="get">
+
+    	<p>Nombre y Apellido</p><input type="text" name="nombre">
+    	<p>Celular/mail o medio por el cual deseas que me contacte con vos</p> <input type="text" name="Datos">
+    	<p>Pedido</p><input type="text" name="pedido"> 	
+    <div>
+    <input class="botonesForm" type="submit" name="Enviar">
+    <input class="botonesForm" type="reset" name="Limpiar formulario">
+    </div>
+
+    </form>
+    </div>
+
+</body>
+</html>

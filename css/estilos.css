@@ -1,0 +1,170 @@
+/*VARIABLES*/
+/*GENERALES*/
+.container-fluid {
+  padding: 0%; }
+
+.row {
+  margin: 0%;
+  padding: 0%; }
+
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+
+ul li {
+  list-style: none; }
+
+/*PRINCIPAL*/
+.menuUno {
+  background-color: lightblue; }
+  .menuUno ul li:hover .menuDesplegable {
+    display: block; }
+  .menuUno ul .menuDesplegable {
+    display: none;
+    text-decoration: none;
+    color: purple;
+    list-style: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    color: black; }
+
+.menuSecciones {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  font-size: 20px;
+  color: black;
+  display: flex;
+  justify-content: space-around; }
+
+.title {
+  font-family: "Bebas Neue", cursive;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 15px; }
+
+.comprarFacil {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: pink; }
+
+.tituloComprar {
+  font-family: "Bebas Neue", cursive;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 15px; }
+
+.colorMetodos1, .colorMetodos2 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  margin-top: 35px; }
+
+.preguntasFrecuentes {
+  text-decoration: none;
+  color: black;
+  margin: 15px; }
+
+.logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url("../img/pattern.jpg");
+  background-size: 100% 100%; }
+
+.fondoPrincipal {
+  background-color: pink; }
+
+.pasos li {
+  padding-bottom: 20px; }
+
+/*PREGUNTAS FRECUENTES*/
+.preguntasFrec {
+  font-family: "Bebas Neue", cursive;
+  text-decoration: none;
+  font-size: 45px;
+  color: black; }
+  .preguntasFrec:hover .respuestas {
+    display: block; }
+  .preguntasFrec .respuestas {
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    color: black;
+    display: none; }
+
+.preguntaMetodos {
+  display: flex;
+  flex-direction: column; }
+
+.enviamePedido {
+  font-family: "Raleway", sans-serif;
+  font-size: 30px; }
+
+.formulario {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px; }
+
+.botonesForm {
+  font-family: "Raleway", sans-serif;
+  color: black;
+  background-color: white;
+  margin-top: 50px; }
+
+#gridServicios {
+  display: grid;
+  grid-template-areas: "servicios1 foto1" "foto2 servicios2"; }
+
+.serviciosMaquillaje {
+  grid-area: servicios1;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px; }
+
+.foto1 {
+  grid-area: foto1; }
+
+.foto2 {
+  grid-area: foto2; }
+
+.serviciosCursos {
+  grid-area: servicios2;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px; }
+
+#gridMetodos {
+  display: grid;
+  grid-template-areas: "envio pago"; }
+
+.envio {
+  grid-area: envio;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px; }
+
+.pago {
+  grid-area: pago;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px; }
+
+.consulta {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: center; }
+
+/*QUIEN SOY*/
+.textoQuiensoy {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  background-color: lightblue;
+  padding: 10px; }
+
+.maquillajesContainer {
+  padding: 0%; }
+  .maquillajesContainer img {
+    padding: 0%;
+    max-width: 100%; }
