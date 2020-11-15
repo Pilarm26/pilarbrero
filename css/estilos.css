@@ -125,8 +125,6 @@ h1{
   width:100%;
   display: flex;
   justify-content: center;
-  background-image: url("../img/pattern.jpg");
-  background-size: 100%;
   }
 
 .pasos li {
