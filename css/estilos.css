@@ -126,7 +126,7 @@ h1{
   display: flex;
   justify-content: center;
   background-image: url("../img/pattern.jpg");
-  background-size: 110%;
+  background-size: 100%;
   }
 
 .img-fluid{
