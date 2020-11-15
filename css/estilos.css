@@ -202,17 +202,44 @@ h1{
   justify-content: center; }
 
 /*QUIEN SOY*/
-.textoQuiensoy {
+
+.textoQuienSoy {
   font-family: "Raleway", sans-serif;
   font-size: 15px;
-  background-color: lightblue;
-  padding: 10px; }
+  background-color:#d4ebf2;
+  padding: 10px; 
+  text-align: center;
+}
 
 .maquillajesContainer {
   padding: 0%; }
+
 .maquillajesContainer img {
     padding: 0%;
     max-width: 100%; }
+
+.fa-female{
+  background-color: white;
+  width: 80px;
+  padding: 20px;
+  font-size: 40px;
+  color: pink;
+  border-radius: 50px;
+  text-align: center;
+  margin-left: 40%;
+}
+
+.fa-briefcase{
+  background-color: white;
+  width: 80px;
+  padding: 20px;
+  font-size: 40px;
+  color: pink;
+  border-radius: 50px;
+  text-align: center;
+  margin-left: 40%;
+}
+
 
 
 /*SERVICIOS*/
