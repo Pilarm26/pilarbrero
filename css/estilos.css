@@ -122,14 +122,14 @@ h1{
 }
 
 .logo {
-  width: 100%;
   display: flex;
   justify-content: center;
   background-image: url("../img/pattern.jpg");
-  background-size: 120%;}
+  background-size: 110%;
+  }
 
 .img-fluid{
-  width: 85%;
+  width: 85git%;
 }
 
 .fondoPrincipal {
