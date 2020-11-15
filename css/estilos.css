@@ -102,20 +102,11 @@ h1{
   border-color: white;}
 
 .card{
-  text-align:   center;
-  margin: 5%;
-}
-
-
-/**.colorMetodos1, .colorMetodos2 {
-  font-family: "Bebas Neue", cursive;
-  font-size: 30px;
-  text-decoration: none;
-  color: black;
   text-align: center;
-  margin-top: 35px; 
-}**/
-
+  margin: 5%;
+  font-family:"Raleway", sans-serif;
+  font-size: 50px;
+}
 
 .logo {
   width:100%;
@@ -255,11 +246,14 @@ h1{
 .btn-light{
   background-color: white;
   border-color: white;
-  margin-left: 90px;
-  margin-right: 90px;
-  margin-bottom: 20px;
   font-family:"Raleway", sans-serif;
   color: pink;
   font-size: 12px; 
-  font-weight: bold; 
+  font-weight: bold;
+}
+
+.botonPreguntas{
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-bottom: 15px;
 }
