@@ -138,6 +138,9 @@ h1{
 .pasos li {
   padding-bottom: 20px; }
 
+.pasos{
+  padding: 0%;}
+
 .float{
 	position:fixed;
 	width:60px;
