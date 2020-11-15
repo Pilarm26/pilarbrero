@@ -5,7 +5,8 @@
 
 .row {
   margin: 0%;
-  padding: 0%; }
+  padding: 0%;
+  background-color: #d4ebf2;}
 
 html {
   height: 100%;
@@ -20,16 +21,18 @@ h1{
   font-family: "Bebas Neue", cursive;
   font-size: 40px;
   margin-top: 10px;
-  background-color: lightblue;
+  background-color: #d4ebf2;
   margin: 0%;
 }
 
 /*PRINCIPAL*/
 .menuUno {
-  background-color: lightblue; }
-  .menuUno ul li:hover .menuDesplegable {
+  background-color: #d4ebf2; }
+
+.menuUno ul li:hover .menuDesplegable {
     display: block; }
-  .menuUno ul .menuDesplegable {
+
+.menuUno ul .menuDesplegable {
     display: none;
     text-decoration: none;
     color: purple;
@@ -51,20 +54,51 @@ h1{
 .title {
   font-family: "Bebas Neue", cursive;
   font-size: 40px;
-  text-align: center;
-  margin-top: 15px; }
+  text-align: center;}
 
 .comprarFacil {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  background-color: pink; }
+  background-color:#d4ebf2; }
 
 .tituloComprar {
   font-family: "Bebas Neue", cursive;
   font-size: 40px;
   text-align: center;
   margin-top: 15px; }
+
+.pasos{
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.fa-copy{
+  background-color: white;
+  width: 80px;
+  padding: 20px;
+  font-size: 40px;
+  color:#d4ebf2 ;
+  border-radius: 50px;
+}
+
+.fa-comment{
+  background-color: white;
+  width: 80px;
+  padding: 20px;
+  font-size: 40px;
+  color:#d4ebf2 ;
+  border-radius: 50px;
+}
+
+.botonesMarcas{
+  font-family:"Raleway", sans-serif; 
+  text-decoration: none;
+  color: white;
+  font-size: 15px}
+
+.btn-info{
+  background-color: pink;
+  border-color: white;
+}
 
 .colorMetodos1, .colorMetodos2 {
   font-family: "Bebas Neue", cursive;
@@ -77,7 +111,15 @@ h1{
 .preguntasFrecuentes {
   text-decoration: none;
   color: black;
-  margin: 15px; }
+  text-align: center;
+  margin-top: 50px; }
+
+.preguntasFrecuentes2{
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  margin-left: 35px;
+}
 
 .logo {
   width: 100%;
