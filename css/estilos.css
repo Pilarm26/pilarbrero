@@ -150,19 +150,34 @@ h1{
 .preguntasFrec {
   font-family: "Bebas Neue", cursive;
   text-decoration: none;
-  font-size: 45px;
+  font-size: 20px;
   color: black; }
   .preguntasFrec:hover .respuestas {
     display: block; }
   .preguntasFrec .respuestas {
     font-family: "Raleway", sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     color: black;
     display: none; }
 
-.preguntaMetodos {
-  display: flex;
-  flex-direction: column; }
+.fa-question-circle{
+  background-color: white;
+  width: 80px;
+  padding: 20px;
+  font-size: 40px;
+  color: pink;
+  border-radius: 50px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.asesoramiento{
+  margin-top: 20px;
+  font-family: "Raleway", sans-serif;
+  font-style: italic;
+  text-decoration: none;  
+  color: black;  
+}
 
 /*QUIEN SOY*/
 
@@ -322,10 +337,9 @@ h1{
 .btn-light{
   background-color: white;
   border-color: white;
-  margin-left: 90px;
   margin-right: 90px;
   margin-bottom: 20px;
   font-family:"Raleway", sans-serif;
   color: pink;
-  font-size: 16px; 
+  font-size: 15px; 
 }
