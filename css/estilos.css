@@ -120,7 +120,6 @@ h1{
   font-family: "Raleway", sans-serif;
 }
 
-
 .pasos li {
   padding-bottom: 20px; }
 
@@ -164,26 +163,6 @@ h1{
 .preguntaMetodos {
   display: flex;
   flex-direction: column; }
-
-#gridMetodos {
-  display: grid;
-  grid-template-areas: "envio pago"; }
-
-.envio {
-  grid-area: envio;
-  font-family: "Raleway", sans-serif;
-  font-size: 20px; }
-
-.pago {
-  grid-area: pago;
-  font-family: "Raleway", sans-serif;
-  font-size: 20px; }
-
-.consulta {
-  font-family: "Raleway", sans-serif;
-  font-size: 20px;
-  display: flex;
-  justify-content: center; }
 
 /*QUIEN SOY*/
 
@@ -261,8 +240,53 @@ h1{
   text-align: center;
 }
 
-.textoServicios{
+.textoSecciones{
   font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  background-color:#d4ebf2;
+  padding: 10px; 
+  text-align: center;
+}
+
+/*METODOS*/
+
+.fa-box-open{
+  background-color: white;
+  width: 80px;
+  padding: 23px;
+  font-size: 32px;
+  color: pink;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.fa-money-check{
+  background-color: white;
+  width: 80px;
+  padding: 23px;
+  font-size: 30px;
+  color: pink;
+  border-radius: 80px;
+  text-align: center;
+}
+
+.textoMetodos{
+  font-family:"Bebas Neue", cursive;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.textoPago{
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  background-color:#d4ebf2;
+  padding-top: 10px;
+  padding-bottom: 10px; 
+  text-align: center;
+}
+
+.textoEnvio{
+ font-family: "Raleway", sans-serif;
   font-size: 15px;
   background-color:#d4ebf2;
   padding: 10px; 
