@@ -5,8 +5,7 @@
 
 .row {
   margin: 0%;
-  padding: 0%;
-  background-color: #d4ebf2;}
+  padding: 0%;}
 
 html {
   height: 100%;
@@ -255,16 +254,6 @@ h1{
   text-align: center;
 }
 
-.fa-map-marker{
-  background-color: white;
-  width: 80px;
-  padding: 20px;
-  font-size: 40px;
-  color: pink;
-  border-radius: 50px;
-  text-align: center;
-}
-
 .fa-bookmark{
   background-color: white;
   width: 80px;
@@ -330,36 +319,114 @@ h1{
 
 /*FOOTER*/
 
-.footer{
-  background-color: pink;
-}
+footer {
+  position: relative;
+  bottom: 0; }
 
-.img-fluid2{
-  padding: 0%;
-  margin-left: 30%;
-}
+.footer-distributed {
+  background-color: #f9bebc;
+  width: 100%;
+  text-align: left;
+  font-family:"Raleway", sans-serif ;
+  padding: 55px 50px;
+  margin-top: 10px; }
 
-.preguntasFrecuentes2{
-  text-decoration: none;
-  color: black;
-  text-align: center;
-  margin-left: 10px;
-  margin-top: 10px;
-  font-size: 10px;
-}
+.footer-distributed .footer-left {
+  display: inline-block;
+  vertical-align: top;
+  width: 40%; }
 
-.datos{
-  margin-bottom: 0%;
-  font-size: 14px;
-  text-decoration: none;
-}
+.footer-distributed .footer-center {
+  display: inline-block;
+  vertical-align: top;
+  width: 35%; }
 
-.btn-light{
-  background-color: white;
-  border-color: white;
-  margin-right: 90px;
-  margin-bottom: 20px;
-  font-family:"Raleway", sans-serif;
-  color: pink;
-  font-size: 15px; 
-}
+.footer-distributed .footer-center p {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0; }
+
+.footer-distributed .footer-center p span {
+display: block;
+font-weight: normal;
+font-size: 14px;
+line-height: 2; }
+      
+.footer-distributed .footer-center p a {
+color: black;
+font-weight: bold;
+text-decoration: none; }
+
+.footer-distributed .footer-right {
+display: inline-block;
+vertical-align: top;
+width: 20%; }
+
+.footer-distributed h3 {
+color: #ffffff;
+font-family: "Bebas Neue", cursive;
+font-size: 26px;
+margin: 0; }
+
+.footer-distributed h3:hover {
+font-size: 30px;
+transition: all .3s; }
+
+.footer-distributed .footer-links {
+margin: 20px 0 12px;
+padding: 0; }
+
+.footer-distributed .footer-links a {
+display: inline-block;
+line-height: 3px;
+text-decoration: none;}
+      
+.footer-distributed .footer-links a:hover {
+transition: all .3s; }
+
+.footer-distributed .footer-company-name {
+color: black;
+font-size: 14px;
+font-weight: normal;
+margin: 0; }
+  
+.footer-distributed .footer-company-about {
+line-height: 15px;
+color:black;
+font-size: 13px;
+font-weight: normal;
+margin: 0; }
+    
+.footer-distributed .footer-company-about:hover {
+color:black
+transition: all .3s;
+font-size: 15px; }
+
+.footer-distributed .footer-company-about span {
+display: block;
+color: black;
+font-size: 14px;
+font-weight: bold;
+margin-top: 20px;
+margin-bottom: 5px; }
+
+.footer-distributed .footer-icons {
+margin-top: 25px; }
+
+.footer-distributed .footer-icons a {
+display: inline-block;
+width: 25px;
+height: 25px;
+cursor: pointer;
+color: #fc9d9d;
+border-radius: 2px;
+font-size: 20px;
+text-align: center;
+line-height: 10px;
+margin-right: 3px;
+margin-bottom: 5px; }
+      
+.footer-distributed .footer-icons a img {
+width: 20px;
+height: 20px;
+margin-top: 15%; }
