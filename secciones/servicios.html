@@ -9,6 +9,8 @@
   <!--fuentes-->
 	<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <!--animaciones-->
+  <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <!-- Tag de Viewport -->
 	<meta name="viewport" content="width=device-width, initial-scale=1"> 
 	<!-- CDN de la librería de Jquery  -->
@@ -34,23 +36,11 @@
               <li class="nav-item">
                 <a class="nav-link active" href="../index.html">Inicio</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="preguntasfrecuentes.html">Preguntas Frecuentes</a>
-              </li>
               <li class="nav-item active">
                 <a class="nav-link active" href="quiensoy.html">Quien Soy</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active">Catalogos</a> 
-                    <ul class="menuDesplegable nav-item">
-                      <li> <a href="../catalogos/exel.pdf">EXEL</a></li>
-                      <li> <a href="../catalogos/idraetmakeup.pdf">Idraet PRO-MAKEUP</a></li>
-                      <li><a href="../catalogos/idraetskincare.pdf">Idraet Dermo</a></li>
-                      <li><a href="../catalogos/mila.pdf">MILA</a></li>
-                      <li><a href="../catalogos/naturasiberica.pdf">Natura Siberica</a></li>
-                      <li><a href="../catalogos/organicshop.pdf">Organic Shop</a></li>
-                      <li><a href="../catalogos/lidherma.pdf">Lidherma</a></li>
-                    </ul>
+                <a class="nav-link active" href="catalogos.html">Catálogos</a>
               </li>
             </ul>  
           </div>
@@ -59,50 +49,114 @@
   </header>
 
 
- 
-        <div class="textoSecciones col-12 col-sm-12 col-md-12 col-lg-12">
-        <i class="fas fa-paint-brush"></i>
-        <p> Maquillaje y peinado profesional </p>
-        
-        <i class="fas fa-map-marker"></i>
-        <p class="textoSecciones"> Novias, Quinceañeras,Invitadas,Producciones</p>
-        
-        <i class="fas fa-bookmark"></i>
-        <p class="textoSecciones"> Cursos de automaquillaje y de maquillaje social profesional</p>	
-        </div>
-      
-
-
-
-    
-			<div class="col-12 col-sm-12 col-md-12 col-lg-12">    
-      <div class="maquillajesContainer container mt-3 row">
-        <div id="myCarousel1" class="carousel slide" data-ride="carousel">
-          <!-- Indicators -->
-          <ul class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-          </ul>       
-          <!-- The slideshow -->
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="img-fluid" src="../img/serviciomaquillaje.jpeg" alt="Maquillafucsia" width="345px">
-              </div>
-              <div class="carousel-item">
-                <img class="img-fluid" src="../img/serviciopeinado.jpeg" alt="Peinado" width="345px">
+  <section id="servicios" class="acenter">
+    <div class="titleBanner">
+      <h1 class="animate__animated animate__backInLeft">
+        Servicios Pilar Brero
+      </h1>
+    </div>
+    <div class="servicios-total animate__animated animate__backInRight">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="servicio-bloque">
+              <div class="productsContainer container mt-3">
+                <div id="myCarousel1" class="carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ul class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                  </ul>
+                  <!-- The slideshow -->
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="img-fluid" src="../img/serviciomaquillaje.jpeg" alt="Maquillaje rosa" width="345px">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="img-fluid" src="../img/serviciopeinado.jpeg" alt="Peinado" width="345px">
+                    </div>
+                  </div>
+                  <!-- Left and right controls -->
+                  <a class="carousel-control-prev" href="#myCarousel1" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                  </a>
+                  <a class="carousel-control-next" href="#myCarousel1" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                  </a>
+                </div>
               </div>
             </div>
-
-          <!-- Left and right controls -->
-            <a class="carousel-control-prev" href="#myCarousel1" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-            </a>
-            <a class="carousel-control-next" href="#myCarousel1" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-            </a>
+          </div>
+        
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="contenedorIcono">
+            <i class="fas fa-paint-brush"></i>
+           </div>
+            <div class="servicios-bloque servicios-texto">
+              
+              <h2>Maquillaje y peinado</h2>
+              <ul>
+                <li>Novias</li>
+                <li>Quinceañeras</li>
+                <li>Madrinas</li>
+                <li>invitadas</li>
+                <li>Eventos</li>
+                <li>Producciones</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="servicios-bloque">
+              <div class="productsContainer container mt-3">
+                <div id="myCarousel2" class="carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ul class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                  </ul>
+                  <!-- The slideshow -->
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="img-fluid" src="../img/cursos.jpeg" alt="Croisante" width="345px">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="img-fluid" src="../img/clienta2.jpeg" alt="Panes" width="345px">
+                    </div>
+                  </div>
+                  <!-- Left and right controls -->
+                  <a class="carousel-control-prev" href="#myCarousel2" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                  </a>
+                  <a class="carousel-control-next" href="#myCarousel2" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="contenedorIcono">
+            <i class="fas fa-bookmark"></i>
+          </div>
+            <div class="servicios-bloque servicios-texto">
+              <h2>Cursos</h2>
+              <ul>
+                <li>Automaquillaje</li>
+                <li>Clases individuales</li>
+                <li>Clases grupales</li>
+                <li>Maquillaje Social Profesional</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
-    </div>      
+    </div>
+
+  </section>
+
+ 
+      
 
 <footer class="footer-distributed">
             <div class="container-fluid">
@@ -110,6 +164,7 @@
                 <div class="col-lg-4 col-12 footer-left">
                   <h3>PilarBreromakeup</h3>
                   <p class="footer-company-name">Pilarbrero &copy; 2020</p>
+                  <a class="footer-company-name"  href="preguntasfrecuentes.html">Preguntas frecuentes</a>
                 </div>
               
                 <div class="col-lg-4 col-md-6 col-12 footer-center">

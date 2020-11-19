@@ -21,8 +21,17 @@ h1{
   font-size: 40px;
   margin-top: 10px;
   background-color: #d4ebf2;
-  margin: 0%;
-}
+  margin: 0%;}
+
+.titleBanner{
+  font-family:"Bebas Neue", cursive;
+  color: black;
+  font-size: 35px;
+  padding-top: 20px;
+  padding-bottom: 20px; 
+  padding-right: 20px;
+  background-color:#d4ebf2;
+  text-align: right;}
 
 /*PRINCIPAL*/
 
@@ -36,20 +45,8 @@ h1{
   }
 
 .menuUno {
-  background-color:#f9bebc; }
+  background-color:#f8c5c6; }
 
-.menuUno ul li:hover .menuDesplegable {
-    display: block; 
-}
-
-.menuUno ul .menuDesplegable {
-    display: none;
-    text-decoration: none;
-    list-style: none;
-    font-family: "Raleway", sans-serif;
-    font-size: 20px;
-    color: black; 
-}
 
 .menuSecciones {
   text-decoration: none;
@@ -87,7 +84,7 @@ h1{
   width: 80px;
   padding: 20px;
   font-size: 40px;
-  color:pink ;
+  color:#f8c5c6 ;
   border-radius: 50px;
 }
 
@@ -96,7 +93,7 @@ h1{
   width: 80px;
   padding: 20px;
   font-size: 40px;
-  color: pink;
+  color:#f8c5c6;
   border-radius: 50px;
 }
 
@@ -109,7 +106,7 @@ h1{
 }
 
 .btn-info{
-  background-color: pink;
+  background-color:#f8c5c6;
   border-color: white;}
 
 .card{
@@ -117,23 +114,6 @@ h1{
   margin-bottom: 10%;
 }
 
-@media only screen and (min-width: 1240px){
-  .card-img-top{ width: 50%;
-    margin-left: 25%;}
-  
-  .card{
-  margin: 10%;
-  }
-
-  .img-fluid2{
-   width:0%;
-  }
-
- .botonFrec{
-  padding-left: 40%;
-  padding-right: 40%;}
-
-}
 
 .card-title{
   font-family: "Raleway", sans-serif;
@@ -184,7 +164,7 @@ h1{
   width: 80px;
   padding: 20px;
   font-size: 40px;
-  color: pink;
+  color:#f8c5c6;
   border-radius: 50px;
   text-align: center;
   margin-bottom: 10px;
@@ -199,6 +179,17 @@ h1{
 }
 
 /*QUIEN SOY*/
+
+.margenQuiensoy{
+  position: relative;
+  margin-right:0%;
+  margin-left: 0%;;
+  padding-bottom: 5%;
+  max-width: 100%;
+}
+
+.backgroundQuiensoy{
+  background-color: #f8c5c6;}
 
 .textoQuienSoy {
   font-family: "Raleway", sans-serif;
@@ -220,7 +211,7 @@ h1{
   width: 80px;
   padding: 20px;
   font-size: 40px;
-  color: pink;
+  color:#f8c5c6;
   border-radius: 50px;
   text-align: center;
   margin-left: 40%;
@@ -231,7 +222,7 @@ h1{
   width: 80px;
   padding: 20px;
   font-size: 40px;
-  color: pink;
+  color: #f8c5c6;
   border-radius: 50px;
   text-align: center;
   margin-left: 40%;
@@ -240,37 +231,87 @@ h1{
 
 
 /*SERVICIOS*/
-.fotosservicio{
-  width: 100%;
-}
 
 .fa-paint-brush{
   background-color: white;
   width: 80px;
   padding: 20px;
   font-size: 40px;
-  color: pink;
+  color: #f8c5c6;
   border-radius: 50px;
   text-align: center;
 }
 
+.contenedorIcono{
+  text-align: center;
+  padding-top: 20px;
+}
 .fa-bookmark{
   background-color: white;
   width: 80px;
   padding: 20px;
   font-size: 40px;
-  color: pink;
+  color: #f8c5c6;
   border-radius: 50px;
   text-align: center;
 }
 
-.textoSecciones{
-  font-family: "Raleway", sans-serif;
-  font-size: 15px;
-  background-color:#d4ebf2;
-  padding: 10px; 
-  text-align: center;
+.only-responsive {
+  display: inherit; }
+
+.only-desktop {
+  display: none; }
+
+#servicios{
+ background-color: #f8c5c6;
 }
+
+.servicios-total {
+  position: relative;
+  margin-right:0%;
+  margin-left: 0%;;
+  padding-bottom: 5%;
+  max-width: 100%; }
+
+.servicios-bloque {
+  padding-bottom: 0%;
+  display: inline-block;
+  vertical-align: middle; }
+
+  .servicios-bloque .productsContainer {
+    padding: 0%;
+    margin-top: 0%;
+    width: 100%;
+    height: 100%; }
+  .servicios-bloque .productsContainer img {
+    padding: 0%;
+    max-width: 100%; }
+
+.servicios-texto {
+  background-color:#f8eff7;
+  width: 100%;
+  height: %;
+  padding: 0%;
+  margin-top: 5%;
+  padding-bottom: 0%;
+  padding-top: 2%;
+  align-content: center; }
+  .servicios-texto h2 {
+    font-size: 30px;
+    color: black;
+    margin-top: 0px;
+    font-family:"Bebas Neue", cursive;
+    text-align: center; }
+    .servicios-texto h2:hover {
+      color: black;
+      transition: all .3s;
+      font-size: 26px; }
+    .servicios-texto li {
+    font-family: "Raleway", sans-serif;
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: left; }
+
 
 /*METODOS*/
 
@@ -317,9 +358,44 @@ h1{
   text-align: center;
 }
 
+/*CATALOGOS*/
+
+.container {
+  width: 100%;
+  margin-top: 25px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+ .icon-box:hover {
+  transform: translateY(-5px);
+  border-color: #f8c5c6;
+}
+
+.icon i {
+  font-size: 48px;
+  line-height: 1;
+  margin-bottom: 15px;
+  color: #fc9d9d;
+}
+.icon-box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  margin: 0 0 40px 0;
+  background: #fff;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  transition: all 0.3s ease-in-out;
+  border-radius: 15px;
+  text-align: center;
+  border-bottom: 3px solid #fff;}
+
+
 /*FOOTER*/
 
-footer {
+.footer {
   position: relative;
   bottom: 0; }
 
@@ -388,7 +464,7 @@ transition: all .3s; }
 color: black;
 font-size: 14px;
 font-weight: normal;
-margin: 0; }
+margin: 0;}
   
 .footer-distributed .footer-company-about {
 line-height: 15px;
