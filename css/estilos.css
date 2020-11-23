@@ -24,14 +24,27 @@ h1{
   margin: 0%;}
 
 .titleBanner{
+  background-color:#d4ebf2;;
+}
+
+.titleBanner h1{
   font-family:"Bebas Neue", cursive;
   color: black;
   font-size: 35px;
   padding-top: 20px;
   padding-bottom: 20px; 
   padding-right: 20px;
-  background-color:#d4ebf2;
-  text-align: right;}
+  text-align: right;
+
+}
+.contenedorIcono{
+  padding-top: 15px;
+  padding-bottom: 15px;}
+
+.contenedorIconoServicios{
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;}
 
 /*PRINCIPAL*/
 
@@ -59,13 +72,14 @@ h1{
 }
 
 
-.title {
+.titleMarcas {
   font-family: "Bebas Neue", cursive;
   font-size: 40px;
   text-align: center;}
 
 .comprarFacil {
-  background-color:#d4ebf2; }
+  background-color:#d4ebf2; 
+  }
 
 .tituloComprar {
   font-family: "Bebas Neue", cursive;
@@ -86,6 +100,7 @@ h1{
   font-size: 40px;
   color:#f8c5c6 ;
   border-radius: 50px;
+  box-shadow: 2px 2px 3px rgb(214, 207, 207);
 }
 
 .fa-comment{
@@ -95,14 +110,18 @@ h1{
   font-size: 40px;
   color:#f8c5c6;
   border-radius: 50px;
+  box-shadow: 2px 2px 3px rgb(214, 207, 207);
 }
 
 .botonesMarcas{
   font-family:"Raleway", sans-serif; 
   text-decoration: none;
   color: white;
-  font-size: 15p;
   padding: 8px;
+}
+
+.botonesMarcas .btn-info{
+  font-size: 20px;
 }
 
 .btn-info{
@@ -111,12 +130,29 @@ h1{
 
 .card{
   text-align:   center;
-  margin-bottom: 10%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  box-shadow: 2px 2px 3px rgb(214, 207, 207);
+}
+
+.card-img-top{
+  width: 100%;
+  padding-top: 20px;
+  padding-right: 60px;
+  padding-left: 50px;
+  padding-bottom: 10px;
 }
 
 
+.card-body{
+  padding: 0px;
+}
+
 .card-title{
-  font-family: "Raleway", sans-serif;
+  font-family: "Bebas Neue", cursive;
+  font-size: 25px;
 }
 
 .pasos li {
@@ -163,33 +199,34 @@ h1{
   background-color: white;
   width: 80px;
   padding: 20px;
-  font-size: 40px;
+  font-size: 80px;
   color:#f8c5c6;
   border-radius: 50px;
   text-align: center;
-  margin-bottom: 10px;
 }
 
 .asesoramiento{
-  margin-top: 20px;
+  margin-bottom: 45px;
   font-family: "Raleway", sans-serif;
   font-style: italic;
   text-decoration: none;  
   color: black;  
 }
 
-/*QUIEN SOY*/
-
-.margenQuiensoy{
-  position: relative;
-  margin-right:0%;
-  margin-left: 0%;;
-  padding-bottom: 5%;
-  max-width: 100%;
+.margenAsesoramiento{
+  margin-bottom: 45px;
 }
 
-.backgroundQuiensoy{
-  background-color: #f8c5c6;}
+/*QUIEN SOY*/
+.quiensoy-bloque{
+  margin-top: 25px;
+  text-align: center;
+}
+.quiensoy-bloque img{
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px #999;
+  margin-top: 15px;
+}
 
 .textoQuienSoy {
   font-family: "Raleway", sans-serif;
@@ -197,61 +234,73 @@ h1{
   background-color:#d4ebf2;
   padding: 10px; 
   text-align: center;
+  margin-bottom: 0%;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px #999; 
 }
 
-.maquillajesContainer {
-  padding: 0%; }
-
-.maquillajesContainer img {
-    padding: 0%;
-    max-width: 100%; }
-
 .fa-female{
-  background-color: white;
+  background-color: #f8c5c6;
   width: 80px;
   padding: 20px;
   font-size: 40px;
-  color:#f8c5c6;
+  color:white;
   border-radius: 50px;
   text-align: center;
   margin-left: 40%;
 }
 
 .fa-briefcase{
-  background-color: white;
+  background-color: #f8c5c6;
   width: 80px;
   padding: 20px;
   font-size: 40px;
-  color: #f8c5c6;
+  color:white ;
   border-radius: 50px;
   text-align: center;
   margin-left: 40%;
 }
 
+.quienSoyFoto{
+  text-align: center;
+  padding-top: 50px;
+  background-color: #d4ebf2;
+  padding-bottom: 0px;
+}
+
+ .quienSoyFoto img {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  transition: all 0.5s;
+  margin-bottom: 5%;
+  box-shadow: 2px 2px 3px #999; 
+  border-radius: 100px;}
+
+  .quienSoyFoto img:hover {
+    width: 210px;
+    height: 210px; }
 
 
 /*SERVICIOS*/
 
 .fa-paint-brush{
-  background-color: white;
+  background-color:#f8c5c6;
   width: 80px;
   padding: 20px;
   font-size: 40px;
-  color: #f8c5c6;
+  color: white;
   border-radius: 50px;
   text-align: center;
 }
 
-.contenedorIcono{
-  text-align: center;
-  padding-top: 20px;
-}
+
 .fa-bookmark{
-  background-color: white;
+  background-color:#f8c5c6;
   width: 80px;
   padding: 20px;
   font-size: 40px;
-  color: #f8c5c6;
+  color:white;
   border-radius: 50px;
   text-align: center;
 }
@@ -262,9 +311,6 @@ h1{
 .only-desktop {
   display: none; }
 
-#servicios{
- background-color: #f8c5c6;
-}
 
 .servicios-total {
   position: relative;
@@ -273,10 +319,18 @@ h1{
   padding-bottom: 5%;
   max-width: 100%; }
 
+.servicios-totalQuiensoy {
+  position: relative;
+  margin-right:0%;
+  margin-left: 0%;;
+  padding-bottom: 5%;
+  max-width: 100%; }
+
 .servicios-bloque {
   padding-bottom: 0%;
+  padding-top: 5%;
   display: inline-block;
-  vertical-align: middle; }
+  vertical-align: middle;}
 
   .servicios-bloque .productsContainer {
     padding: 0%;
@@ -295,7 +349,15 @@ h1{
   margin-top: 5%;
   padding-bottom: 0%;
   padding-top: 2%;
-  align-content: center; }
+  align-content: center;
+  font-family: "Raleway", sans-serif;
+      font-size: 15px;
+      background-color:#d4ebf2;
+      padding: 10px; 
+      margin-bottom: 0%;
+      border-radius: 10px;
+      box-shadow: 2px 2px 3px #999;}
+      
   .servicios-texto h2 {
     font-size: 30px;
     color: black;
@@ -306,31 +368,36 @@ h1{
       color: black;
       transition: all .3s;
       font-size: 26px; }
-    .servicios-texto li {
-    font-family: "Raleway", sans-serif;
-    margin-top: 10px;
-    font-size: 20px;
-    text-align: left; }
+    
+    
 
 
 /*METODOS*/
 
+.contenedorMetodos{
+ padding-bottom: 20px;
+}
+
+.contenedorIconometodos{
+  text-align: center;
+  padding-top: 20px;
+}
 .fa-box-open{
-  background-color: white;
+  background-color: #f8c5c6;
   width: 80px;
   padding: 23px;
   font-size: 32px;
-  color: pink;
+  color: white;
   border-radius: 50px;
   text-align: center;
 }
 
 .fa-money-check{
-  background-color: white;
+  background-color:#f8c5c6;
   width: 80px;
   padding: 23px;
   font-size: 30px;
-  color: pink;
+  color:white;
   border-radius: 80px;
   text-align: center;
 }
@@ -351,14 +418,28 @@ h1{
 }
 
 .textoEnvio{
- font-family: "Raleway", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 15px;
   background-color:#d4ebf2;
   padding: 10px; 
   text-align: center;
 }
 
+
 /*CATALOGOS*/
+
+.title a{
+font-family: "Bebas Neue", cursive;
+font-size: 30px;
+text-align: center;  
+color: black;
+text-decoration-color: black;
+} 
+
+.description{
+font-family: "Raleway", sans-serif;
+font-size: 15px;
+}
 
 .container {
   width: 100%;
@@ -399,6 +480,9 @@ h1{
   position: relative;
   bottom: 0; }
 
+.footer-left{
+  margin-bottom: 10px;
+}
 .footer-distributed {
   background-color: #f9bebc;
   width: 100%;
@@ -465,7 +549,19 @@ color: black;
 font-size: 14px;
 font-weight: normal;
 margin: 0;}
+
+.footer-distributed .footer-company-preguntas{ 
+  color: black;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: bold;
+  margin: 0px;}
   
+.footer-distributed .footer-company-preguntas:hover {
+color:black
+transition: all .3s;
+font-size: 17px;}
+
 .footer-distributed .footer-company-about {
 line-height: 15px;
 color:black;
@@ -487,7 +583,7 @@ margin-top: 20px;
 margin-bottom: 5px; }
 
 .footer-distributed .footer-icons {
-margin-top: 25px; }
+margin-top: 20px; }
 
 .footer-distributed .footer-icons a {
 display: inline-block;
@@ -506,3 +602,192 @@ margin-bottom: 5px; }
 width: 20px;
 height: 20px;
 margin-top: 15%; }
+
+
+/*MEDIA QUERYS*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+/*Inicio*/
+.card-img-top{
+padding-top: 20px;
+padding-left: 70px;
+padding-bottom: 10px;}
+
+/*servicios*/
+.servicios-bloque .productsContainer{
+padding-left:140px ;}
+
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+
+/*Inicio*/
+.card1{
+  margin-right:10px;
+  margin-left:150px;
+  margin-top: 60px;
+  margin-bottom: 60px;}
+
+.card2{
+  margin-right:150px;
+  margin-left:10px;
+  margin-top: 60px;
+  margin-bottom: 60px;}
+
+.card-title{
+font-size: 30px;}
+
+.card-img-top{
+width: 0%;}
+
+
+.tituloComprar{
+margin-top: 100px;
+padding-top: 10px;
+font-size: 50px;
+background-color: white;
+border-radius: 15px;
+margin-left:28px;
+margin-right:28px;
+box-shadow: 2px 2px 3px rgb(214, 207, 207);}
+
+.pasos1{
+margin-top: 40px;
+}
+
+/*QuienSoy*/
+.quiensoy-bloque img{
+  width: 370px;}
+
+.body{
+  margin: 0; 
+  text-align: center;}
+
+.servicios-total{
+  padding-left: 20px;
+  padding-top: 50px;}
+
+/*PreguntasFrec*/
+.preguntasFrec{
+  font-size: 30px;}
+
+.textoSecciones{
+ padding-right: 150px;
+ padding-left: 150px;}
+
+}
+
+
+@media (min-width: 1200px) {
+
+/*Inicio*/
+
+.card1{
+    margin-right:10px;
+    margin-left:300px;
+    margin-top: 90px;
+    margin-bottom: 90px;}
+
+.card2{
+    margin-right:300px;
+    margin-left:10px;
+    margin-top: 90px;
+    margin-bottom: 90px;}
+
+.card-title{
+  font-size: 40px;}
+
+.card-img-top{
+  width: 0%;}
+
+.titleMarcas{
+  font-size: 60px;
+  padding-top: 70px;
+  padding-bottom: 20px;
+  background-color: white;
+  margin-left: 520px;
+  margin-right: 520px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  box-shadow: 2px 2px 3px rgb(214, 207, 207);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 15px;
+}
+
+.tituloComprar{
+  margin-top: 220px;
+  padding-top: 10px;
+  font-size: 70px;
+  background-color: white;
+  border-radius: 15px;
+  margin-left:24px;
+  margin-right:24px;
+  box-shadow: 2px 2px 3px rgb(214, 207, 207);
+  
+}
+
+
+.pasos{
+ padding-top:20px ;
+ font-size: 25px;
+
+}
+
+.fa-copy{
+  font-size:80px ;
+  width: 160px;
+  padding: 40px;
+  border-radius: 100px;
+  margin-top: 60px;
+}
+
+.fa-comment{
+  font-size:80px ;
+  width: 160px;
+  padding: 40px;
+  border-radius: 100px;
+}
+
+
+/*Generales*/
+.titleBanner h1{
+  font-size: 50px;}
+
+/*Servicios*/
+
+.servicios-total{
+  margin-left: 20px;
+  padding-top: 40px;}
+
+/*QuienSoy*/
+
+  .servicios-totalQuiensoy{
+   padding-left: 80px;
+   padding-top: 20px;
+   padding-bottom: 50px;
+   margin-left: 170px;}
+  
+  .quiensoy-bloque img{
+   width: 300px}
+
+  .quiensoy-bloque{
+    margin-right: 120px;
+    padding-right: 80px;
+    padding-top: 0px;}
+
+/*PreguntasFrecuentes*/
+
+.preguntasFrec{
+ font-size: 36px ;
+ margin-right: 25px;}
+
+.preguntasFrec .respuestas {
+  font-size: 20px;}
+
+.textoSecciones{
+  padding-right: 290px;
+  padding-left: 290px;}
+
+}

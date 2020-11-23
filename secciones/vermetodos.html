@@ -6,7 +6,9 @@
 	<meta name="description" content="Envios por motomensajeria y por OCA, pagos en efectivo, transferencia o MercadoPago">
 	<!--fuentes-->
 	  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <!--animaciones-->
+  <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 	<!-- Tag de Viewport -->
 	<meta name="viewport" content="width=device-width, initial-scale=1"> 
 	<!-- CDN de la librería de Jquery  -->
@@ -47,21 +49,57 @@
         </div>   
       </header>
 
-    
-        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 textoSecciones">
-          <p class="textoMetodos"> METODOS DE PAGO </p>
-          
-          <i class="fas fa-money-check"></i>
-          <p class="textoPago"> Mercado Pago - Transferencia Bancaria - Efectivo</p>
-          
-          <p class="textoMetodos">METODOS DE ENVIO</p>
-          <i class="fas fa-box-open"></i>
-          <ul class="textoEnvio">
-            <li>-Motomensajeria privada dentro de CABA y GBA</li>
-            <li>-Interior de Argentina: OCA</li>
-            <li>-Retiro por Don Bosco, Quilmes</li>
-          </ul>
-        </div> 
+
+          <div class="titleBanner">
+            <h1 class="animate__animated animate__backInLeft">
+              Metodos de pago y envio 
+            </h1>
+          </div>
+
+        <div class="contenedorMetodos">
+          <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-lg-6 col-md-6 col-12">
+                  <div class="contenedorIconometodos">
+                    <i class="fas fa-money-check"></i>
+                  </div>
+                  <div class="servicios-bloque servicios-texto">            
+                      <h2>Metodos de pago</h2>
+                      <ul>
+                        <li>-Mercado pago</li>
+                        <li>-Transferencia bancaria</li>
+                        <li>-Efectivo</li>
+                      </ul>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                  <div class="contenedorIconometodos">
+                    <i class="fas fa-box-open"></i>
+                  </div>
+                  <div class="servicios-bloque servicios-texto">             
+                    <h2>Metodos de envio</h2>
+                    <ul>
+                      <li>-Motomensajeria privada dentro de CABA y GBA</li>
+                      <li>-Interior de Argentina: OCA</li>
+                      <li>-Retiro por Don Bosco, Quilmes</li>
+                    </ul>
+                  </div>
+                </div>
+
+            </div>
+          </div>
+        </div>
+
+
+  <div class="container-fluid">
+		<div class="quienSoyFoto">
+			<a href="../catalogos/lidherma.pdf" target="_blank"><img src="../img/paleta.jpeg" alt="Paleta"></a>			
+			<a href="../catalogos/lidherma.pdf"target="_blank"><img src="../img/sombras.jpeg" alt="Sombras"></a>		
+			<a href="../catalogos/idraetmakeup.pdf" target="_blank"><img src="../img/iluminadores.jpg" alt="iluminadores"></a>					
+			<a href="../catalogos/idraetmakeup.pdf" target="_blank"><img src="../img/correctores.jpg" alt="correctores"></a>					
+		</div>	   		      	
+    </div>	 
 
         <footer class="footer-distributed">
           <div class="container-fluid">
@@ -69,7 +107,7 @@
               <div class="col-lg-4 col-12 footer-left">
                 <h3>PilarBreromakeup</h3>
                 <p class="footer-company-name">Pilarbrero &copy; 2020</p>
-                 <a class="footer-company-name"  href="preguntasfrecuentes.html">Preguntas frecuentes</a>
+                 <a class="footer-company-preguntas"  href="preguntasfrecuentes.html">Preguntas frecuentes</a>
               </div>
             
               <div class="col-lg-4 col-md-6 col-12 footer-center">
@@ -84,7 +122,6 @@
                 <div>
                   <p><a href="mailto:support@company.com">Pilarbreromakeup@gmail.com</a></p>
                 </div>
-            
               </div>
             
               <div class="col-lg-4 col-md-6 col-12 footer-right">
